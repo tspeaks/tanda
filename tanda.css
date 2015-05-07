@@ -1,0 +1,121 @@
+@font-face {
+   font-family: 'NobileRegular';
+   src: url('nobile-webfont.eot');
+   src: local('☺'), 
+        url('nobile-webfont.woff') format('woff'), 
+        url('nobile-webfont.ttf') format('truetype'), 
+        url('nobile-webfont.svg#webfontsKo9tqe9') format('svg');
+}
+
+body {
+	background-color: #0099FF;
+	font-family: NobileRegular, Verdana, Geneva, sans-serif;
+	line-height: 1.4em;
+	color: white;
+	}
+
+section h1{
+	background-color: #66C2FF;
+	color: white;
+	font-size: 1.7em;
+	letter-spacing: 0.4em;
+	line-height: 1.8em;
+	text-indent: 1em;
+	}
+	
+h2 {
+	background-color: #66C2FF;
+	color: white;
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 0.4em;
+	line-height: 1.8em;
+	text-indent: 1em;
+	}
+
+		nav ul {
+		background-color: #66C2FF;
+		line-height: 3.5em;
+		list-style-type: none;
+		padding-left: 0.5em;
+	}
+	
+	nav ul li:hover {
+		background-color: #4D70DB;
+	}
+	
+	nav ul li:first-of-type {
+		text-transform: uppercase;
+	}
+	
+	nav ul li a {
+		color:white;
+		text-decoration: none;
+	}
+
+	section p.closing {
+		color: white;
+		text-align: right;
+	}	
+
+#tanda1 {
+	height: 500px;
+	width: 300px;
+}
+
+	fieldset {
+		background-color: #4D70DB;
+		border: 1px solid gray;
+		float: left;
+		margin: 10px 0px 10px 2.5%;
+		width: 46%;
+	}
+	
+	legend {
+		background-color: #66C2FF;
+		color: white;
+		padding: 3px 0px;
+		text-indent: 5px;
+		width: 100%;
+	}
+
+
+	label {
+		clear: left;
+		display: block;
+		float: left;
+		font-size: 0.9em;
+		margin: 7px 4% 7px 5px;
+		width: 40%;
+		color: white;
+	}
+
+		input {
+		display: block;
+		float: left;
+		font-size: 0.9em;
+		margin: 7px 0px;
+		width: 50%;
+	}
+
+	#plusone {
+		color: white;
+		clear: both;
+		float: none;
+		margin: 10px auto;
+		text-align: center;
+		width: 90%;
+	}
+	
+	#plusone input {
+		display: inline-block;
+		float: none;
+		width: 20px;
+	}
+
+footer address {
+	background-color: #4D70DB;
+	color: white;
+	color rgba(255, 255, 255, 0.8);
+	font: normal small-caps 0.8em/4em 'Times New Roman', Times, serif;
+	text-align: center;
+	}
